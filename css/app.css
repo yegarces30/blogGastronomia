@@ -1,15 +1,10 @@
-img{
-  width: 100%;
-}
-
-
 
 div.secondary.callout.text-center{
   min-height: 242px;
 }
 
 div{
-  border: 1px solid red;
+  border: 1px solid none;
 }
 
 h4, h5{
@@ -21,7 +16,30 @@ h2{
   text-decoration: underline;
 }
 
-.imagen{
-  padding: 0px;
-  
+.imagen, li{
+  padding: 0px !important;
+  width: 100% !important;
+  margin: 0px !important;
+}
+
+.principal{
+  border: 1px solid #e01d3c;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+img{
+  margin: 5px;
+}
+
+.contenedor{
+  background-color: rgba(224,29,60,0.1);
+}
+
+body{
+  background-image:url(../img/15.jpg);
+  background-position:center top;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
 }
